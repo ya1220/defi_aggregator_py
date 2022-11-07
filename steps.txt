@@ -1,0 +1,35 @@
+choose chain
+text to yield table to explain what it does
+text to optimiser to explain what it does
+in optimiser settings - choose chain
+est return adj numbers - recalculates returns - from a fresh rand in get_total_estimated_return_by_pool_address - synchronise
+align login central
+if it is not already calculated - to avoid recalc
+same in yield components
+#different weights to different scenarios - drawdown/amplitude - mid - worst - best
+spell out the adjustments
+gas % pf - line on pools
+filter for stablecoins / low vol
+volatility + amplitude calc
+textual summary div 
+get actual pool data using web3py
+tab to track if it works
+
+
+calculate_blended_portfolio_return - separate func
+fonts sz
+
+only include nonzero pools in output optimal pf
+pools df - check if filtered works - aggregation assumes same index
+months of yield hold to make back gas fees
+
+len of trades - underestimates gas fees?
+multi chain
+https://info.uniswap.org/#/pools
+#buttons to rank by criteria: score, yield etc
+security ranking
+refresh cycle - pull data once a day
+textual summary of optimal pf
+textual summary of swaps
+textual summary of volatility
+potential downside
