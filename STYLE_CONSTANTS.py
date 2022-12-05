@@ -31,10 +31,6 @@ dt_input_style = {"width": '12.5%','display': 'inline-block','height':'35px'}
 
 optionlist = [
             {'label': 'Move in price of fixed size and time', 'value': 'MOVE'},
-            {'label': 'Parabolic price move', 'value': 'MOVE_PARABOLIC'},
-            {'label': 'Periodic Extrema', 'value': 'PERIODIC_HIGH_LOW'},
-            {'label': 'N-Sigma Move', 'value': 'MOVE_INVARIANT_SIGMA'},
-            {'label': 'please choose event', 'value': ''},
         ]
 
 optionlist_full = optionlist
@@ -196,7 +192,7 @@ subscribe_to_newsletter_button = dbc.Button("subscribe to our newsletter",
                    n_clicks=0,
                    outline=True,
                    size='lg',
-                   href='http://eepurl.com/hOS4sv',
+                   href='xxx@x',
                    color="dark",
                    className="d-grid gap-2 col-6 mx-auto",style={'width':'100%'},
                    #style={'width': input_width,'margin-bottom': '10px'},
