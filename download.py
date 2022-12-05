@@ -28,7 +28,7 @@ rescan_stocks_or_no = False
 rescan_crypto_or_no = True
 alphavantage_rescan_during_trading_hours = True
 check_alerts_after_rescan = True
-polygon_minutes_intraday = 15
+polygon_minutes_intraday = 30
 polygon_default_res = 'minute'
 
 cryptocompare_API_key = c.cryptocompare_API_key
