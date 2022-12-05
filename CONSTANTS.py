@@ -17,7 +17,7 @@ FROM_EMAIL = EMAIL #''
 MAILJET_API_KEY = ''
 MAILJET_API_SECRET = ''
 
-WEBSITE_NAME = 'fondue.finance'
+WEBSITE_NAME = 'xxx.finance'
 password = "xxx" #mongo login
 
 #DOWNLOAD
