@@ -21,9 +21,9 @@ WEBSITE_NAME = 'fondue.finance'
 password = "yieldmustbehigh1" #mongo login
 
 #DOWNLOAD
-cryptocompare_API_key = "4c6dc5a216267d7f96a173b62f0a3d31505b3f2482349f6e0fdb508e7780355f"
-ARCHIVE_NODE_API_KEY = 'slngjja9r6aqy43knxfslngwhhahuyha'
-#polygon_API_key = "iG7Bmg3FgDi3l1xilau_AySU7SdsFVlZ"
+cryptocompare_API_key = ""
+ARCHIVE_NODE_API_KEY = ''
+#polygon_API_key = ""
 
 MONGO_URL = ""
 
