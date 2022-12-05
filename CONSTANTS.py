@@ -12,10 +12,10 @@ ticker_key = "ticker"
 price_record_key = 'prices'
 
 #EMAIL
-EMAIL = "yaroslav.afonin@anagami.ai"
-FROM_EMAIL = EMAIL #'iaroslav.afonin@outlook.com'
-MAILJET_API_KEY = 'dc87a6bd52a879647c2b85dacd315bc8'
-MAILJET_API_SECRET = 'edd1d40aa390ae803088d56acb36d3f9'
+EMAIL = ""
+FROM_EMAIL = EMAIL #''
+MAILJET_API_KEY = ''
+MAILJET_API_SECRET = ''
 
 WEBSITE_NAME = 'fondue.finance'
 password = "yieldmustbehigh1" #mongo login
@@ -25,7 +25,7 @@ cryptocompare_API_key = "4c6dc5a216267d7f96a173b62f0a3d31505b3f2482349f6e0fdb508
 ARCHIVE_NODE_API_KEY = 'slngjja9r6aqy43knxfslngwhhahuyha'
 #polygon_API_key = "iG7Bmg3FgDi3l1xilau_AySU7SdsFVlZ"
 
-MONGO_URL = "mongodb+srv://ya1220:yieldmustbehigh123@cluster0.p3sb2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+MONGO_URL = ""
 
 USE_IN_MEMORY_DB_OR_NO = True
 number_of_trials = 50
