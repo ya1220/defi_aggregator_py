@@ -18,7 +18,7 @@ MAILJET_API_KEY = ''
 MAILJET_API_SECRET = ''
 
 WEBSITE_NAME = 'fondue.finance'
-password = "yieldmustbehigh1" #mongo login
+password = "xxx" #mongo login
 
 #DOWNLOAD
 cryptocompare_API_key = ""
