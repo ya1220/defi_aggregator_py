@@ -160,12 +160,6 @@ def register_validate_inputs(first,last,email,password,confirm):
     if sum(d['valid'].values())==5:
         disabled = False
 
-    #if code != 'ANAGAMI68':
-    #    d['invalid']['code'] = True
-    #    print("code: ", code)
-    #if code ==  or 'DJIHAD95':
-    #print(d['valid'],d['invalid'])
-
     return [
         *list(d['valid'].values()),
         *list(d['invalid'].values()),
