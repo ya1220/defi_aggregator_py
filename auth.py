@@ -189,8 +189,8 @@ def send_password_key(email, firstname, engine):
                     "From": {"Email": FROM_EMAIL, "Name": WEBSITE_NAME + "password reset"},
                     "To": [{"Email": email, "Name": first,}],
                     "Subject": "reset password",
-                    "TextPart": "anagami password reset code",
-                    "HTMLPart": "<p>Dear {},<p> <p>Your anagami password reset code is: <strong>{}</strong> <br>Please enter this code on the website to set a new password.<br><br>Kind regards,<br>Admin".format(
+                    "TextPart": "password reset code",
+                    "HTMLPart": "<p>Dear {},<p> <p>Your password reset code is: <strong>{}</strong> <br>Please enter this code on the website to set a new password.<br><br>Kind regards,<br>Admin".format(
                         firstname, key
                     ),
                     "CustomID": "AppGettingStartedTest",
