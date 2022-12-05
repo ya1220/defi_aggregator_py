@@ -8,7 +8,7 @@ import STYLE_CONSTANTS as c
 
 def layout():
     return html.Div([
-    html.Div([dbc.NavLink('contact us',href='mailto:yaroslav.afonin@anagami.ai')],style={'display': 'inline-block','padding-right':'0px','margin-right':'0px'}),
+    html.Div([dbc.NavLink('contact us',href='mailto:xxx')],style={'display': 'inline-block','padding-right':'0px','margin-right':'0px'}),
     html.Div([html.P(' enquire about access, functionality, features, suggest additions, or report bugs')],style={'display': 'inline-block','padding-left':'0px','margin-left':'0px'})
 ],style={'display': 'inline-block'})
 
