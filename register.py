@@ -77,7 +77,7 @@ def layout():
                         dbc.FormText('registration code'),
                         dbc.Input(id='register-code', type='text'),
                         #dbc.(id='contact us a registration code if you do not have one'),
-    html.Div([dbc.NavLink('contact us for a registration code - registration is only by code for now',href='mailto:yaroslav.afonin@anagami.ai')],style={'display': 'inline-block'}),
+    html.Div([dbc.NavLink('contact us for a registration code - registration is only by code for now',href='mailto:xxx')],style={'display': 'inline-block'}),
                         html.Br(),
 
                         dbc.Button('submit',color='primary',id='register-button'),
