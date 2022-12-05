@@ -373,7 +373,7 @@ def rescan_data_and_alerts():
     TEXT = ' '
     msg = MIMEText(TEXT, 'html')
     msg['From'] = check_alerts.sender_email
-    msg['Subject'] = 'ANAGAMI NOTIFICATION: starting continuous operation: ' + datetime.datetime.now().strftime("%d-%b-%y %H:%M")
+    msg['Subject'] = 'NOTIFICATION: starting continuous operation: ' + datetime.datetime.now().strftime("%d-%b-%y %H:%M")
     msg['To'] = check_alerts.receiver_email
     smtp_server.sendmail(check_alerts.sender_email, check_alerts.receiver_email, msg.as_string())
 
@@ -417,13 +417,11 @@ def load_fundamental_event_data_from_xls_to_db(filepath):
     #if filepath does not contain a slash
     if 'C:/' not in filepath:
         base = Path('Fundamental_Events')
-        #fullpath = 'C:/Users/User/Documents/Anagami/FILE_TO_ADD_TICKERS_TO_DB.xlsm'
-        #filename = 'FILE_TO_ADD_TICKERS_TO_DB.xlsm'
 
         print("p: ",Path().resolve())
 
         fullpath = Path().resolve() / base / filepath
-        xls = fullpath  # 'C:/Users/User/Documents/Anagami/FILE_TO_ADD_TICKERS_TO_DB.xlsm'
+        xls = fullpath  
         print("xls = ", xls)
 
     df = pd.read_excel(xls)
@@ -459,10 +457,11 @@ def update_fundamental_data_from_xls(xls_addr=''):
 
     if xls_addr == '':
         base = Path('Fundamental_Events')
-        fullpath = 'C:/Users/User/Documents/Anagami/FILE_TO_ADD_TICKERS_TO_DB.xlsm'
+        fullpath = ''
         filename = 'FILE_TO_ADD_TICKERS_TO_DB.xlsm'
         fullpath = base / (filename)
-        xls = fullpath  # 'C:/Users/User/Documents/Anagami/FILE_TO_ADD_TICKERS_TO_DB.xlsm'
+        xls = fullpath
+        
         print("xls = ", xls)
 
     df1 = pd.read_excel(xls, 'Stocks_to_load')
